@@ -27,13 +27,6 @@ let venta = {
   },
 };
 
-const selectImpresora = document.getElementById("impresoras");
-
-selectImpresora.addEventListener("change", (e) => {
-  impresoraNOMBRE = e.target.value;
-  console.log(impresoraNOMBRE);
-});
-
 // Toast
 
 const toastElem = document.getElementById("liveToast");
